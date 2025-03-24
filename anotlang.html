@@ -3,27 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Stylish Webpage</title>
+    <title>Gideon Prints - Custom T-Shirts</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0055a5;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffcc00;
+            color: #0055a5;
+            border-radius: 10px;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        .contact {
+            text-align: center;
+            background-color: #0055a5;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .contact a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
-<body style="background-color: #f0f8ff; font-family: Arial, sans-serif; color: #333; margin: 20px;">
+<body>
+    <header>
+        <h1>Gideon Prints</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h1 style="text-align: center; color: #0066cc;">Welcome to My Webpage!</h1>
-    <p style="font-size: 18px; color: #444;">This is a simple webpage with a colorful design. Let’s make it shine!</p>
-    
-    <h2 style="color: #009688;">Things I Love:</h2>
-    <ul style="list-style-type: square; color: #4caf50;">
-        <li>Coding</li>
-        <li>Exploring New Technologies</li>
-        <li>Learning Git and VS Code!</li>
-    </ul>
-    
-    <h2 style="color: #ff5722;">My Favorite Quote:</h2>
-    <blockquote style="background-color: #ffe0b2; padding: 10px; border-left: 5px solid #ff9800;">
-        "The journey of a thousand miles begins with one step." - Lao Tzu
-    </blockquote>
+    <section class="hero" id="about">
+        <h2>Custom T-Shirts for Every Occasion!</h2>
+        <p>At Gideon Prints, we bring your ideas to life with vibrant, high-quality custom T-shirts. Perfect for events, gifts, and personal branding!</p>
+    </section>
 
-    <h2 style="color: #673ab7;">Contact Me:</h2>
-    <p style="font-size: 18px;">Email me at <a href="mailto:aronbestowed711@gmail.com" style="color: #3f51b5; text-decoration: none;">aronbestowed711@gmail.com</a></p>
+    <section id="services">
+        <h2 style="text-align: center;">Our Services</h2>
+        <ul style="font-size: 1.2rem; margin: 0 auto; text-align: center;">
+            <li>Custom Printed T-Shirts</li>
+            <li>Bulk Orders for Events</li>
+            <li>Personalized Design Assistance</li>
+            <li>Quick Delivery Across Locations</li>
+        </ul>
+    </section>
 
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email us at <a href="mailto:aarokkiadassblr@gmail.com">aarokkiadassblr@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gideon Prints - All Rights Reserved</p>
+    </footer>
 </body>
 </html>
